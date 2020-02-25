@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://hpkhanhloc.github.io/viihde-app/static/css/main.8913a5b7.chunk.css",
-    "main.js": "https://hpkhanhloc.github.io/viihde-app/static/js/main.f7504170.chunk.js",
-    "main.js.map": "https://hpkhanhloc.github.io/viihde-app/static/js/main.f7504170.chunk.js.map",
+    "main.js": "https://hpkhanhloc.github.io/viihde-app/static/js/main.0d7cb1f7.chunk.js",
+    "main.js.map": "https://hpkhanhloc.github.io/viihde-app/static/js/main.0d7cb1f7.chunk.js.map",
     "runtime-main.js": "https://hpkhanhloc.github.io/viihde-app/static/js/runtime-main.1d5509e3.js",
     "runtime-main.js.map": "https://hpkhanhloc.github.io/viihde-app/static/js/runtime-main.1d5509e3.js.map",
     "static/js/2.b22c37b8.chunk.js": "https://hpkhanhloc.github.io/viihde-app/static/js/2.b22c37b8.chunk.js",
     "static/js/2.b22c37b8.chunk.js.map": "https://hpkhanhloc.github.io/viihde-app/static/js/2.b22c37b8.chunk.js.map",
     "index.html": "https://hpkhanhloc.github.io/viihde-app/index.html",
-    "precache-manifest.e31da3cc64e100971a58abfacec8d607.js": "https://hpkhanhloc.github.io/viihde-app/precache-manifest.e31da3cc64e100971a58abfacec8d607.js",
+    "precache-manifest.8a6e88ce6d2dec11c1e3e5eb5118fc90.js": "https://hpkhanhloc.github.io/viihde-app/precache-manifest.8a6e88ce6d2dec11c1e3e5eb5118fc90.js",
     "service-worker.js": "https://hpkhanhloc.github.io/viihde-app/service-worker.js",
     "static/css/main.8913a5b7.chunk.css.map": "https://hpkhanhloc.github.io/viihde-app/static/css/main.8913a5b7.chunk.css.map",
     "static/js/2.b22c37b8.chunk.js.LICENSE.txt": "https://hpkhanhloc.github.io/viihde-app/static/js/2.b22c37b8.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1d5509e3.js",
     "static/js/2.b22c37b8.chunk.js",
     "static/css/main.8913a5b7.chunk.css",
-    "static/js/main.f7504170.chunk.js"
+    "static/js/main.0d7cb1f7.chunk.js"
   ]
 }
