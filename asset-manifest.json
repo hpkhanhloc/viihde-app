@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/viihde-app/static/css/main.8913a5b7.chunk.css",
-    "main.js": "/viihde-app/static/js/main.8c4f57d8.chunk.js",
-    "main.js.map": "/viihde-app/static/js/main.8c4f57d8.chunk.js.map",
+    "main.js": "/viihde-app/static/js/main.852a7f91.chunk.js",
+    "main.js.map": "/viihde-app/static/js/main.852a7f91.chunk.js.map",
     "runtime-main.js": "/viihde-app/static/js/runtime-main.d4112ef8.js",
     "runtime-main.js.map": "/viihde-app/static/js/runtime-main.d4112ef8.js.map",
     "static/js/2.5775e685.chunk.js": "/viihde-app/static/js/2.5775e685.chunk.js",
     "static/js/2.5775e685.chunk.js.map": "/viihde-app/static/js/2.5775e685.chunk.js.map",
     "index.html": "/viihde-app/index.html",
-    "precache-manifest.e7fb71fd86d7f4ce412184cc002e9e41.js": "/viihde-app/precache-manifest.e7fb71fd86d7f4ce412184cc002e9e41.js",
+    "precache-manifest.521952f93a0046cfac18a392a3790370.js": "/viihde-app/precache-manifest.521952f93a0046cfac18a392a3790370.js",
     "service-worker.js": "/viihde-app/service-worker.js",
     "static/css/main.8913a5b7.chunk.css.map": "/viihde-app/static/css/main.8913a5b7.chunk.css.map",
     "static/js/2.5775e685.chunk.js.LICENSE.txt": "/viihde-app/static/js/2.5775e685.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d4112ef8.js",
     "static/js/2.5775e685.chunk.js",
     "static/css/main.8913a5b7.chunk.css",
-    "static/js/main.8c4f57d8.chunk.js"
+    "static/js/main.852a7f91.chunk.js"
   ]
 }
