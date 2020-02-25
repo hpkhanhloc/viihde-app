@@ -46,15 +46,15 @@ const App = () => {
             </Menu>
           </div>
           <Route
-            exact path="/"
+            exact path={process.env.PUBLIC_URL + "/"}
             render={() => <Home />}
           />
           <Route
-            exact path="/videos"
+            exact path={process.env.PUBLIC_URL + "/videos"}
             render={() => <Videos videos={videos} />}
           />
           <Route
-            exact path="/videos/:id"
+            exact path={process.env.PUBLIC_URL + "/videos/:id"}
             render={({ match }) => <Video video={videoById(match.params.id)} />}
           />
         </Router>
