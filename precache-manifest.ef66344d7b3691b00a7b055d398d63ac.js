@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0c73de52425aae6dad0450586bbb1b4",
+    "revision": "2efb2ec3d67f3b017446e814d98d7189",
     "url": "/viihde-app/index.html"
   },
   {
-    "revision": "60f86f1d081ce7fa9651",
+    "revision": "fcef0843281da73d9300",
     "url": "/viihde-app/static/css/main.8913a5b7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/viihde-app/static/js/2.b22c37b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60f86f1d081ce7fa9651",
-    "url": "/viihde-app/static/js/main.72dcb31d.chunk.js"
+    "revision": "fcef0843281da73d9300",
+    "url": "/viihde-app/static/js/main.9174a89b.chunk.js"
   },
   {
     "revision": "cf15d961cb9e17d7bbc6",
