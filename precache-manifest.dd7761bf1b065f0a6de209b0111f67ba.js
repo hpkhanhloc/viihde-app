@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b64ad7d642126ce002717a295995ddc",
+    "revision": "53cce8f10cbd62e97b1989737e5df579",
     "url": "https://hpkhanhloc.github.io/viihde-app/index.html"
   },
   {
-    "revision": "4a7c34c80e5d449753ee",
+    "revision": "9a96ccd100ab1c5d5603",
     "url": "https://hpkhanhloc.github.io/viihde-app/static/css/main.8913a5b7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hpkhanhloc.github.io/viihde-app/static/js/2.b22c37b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a7c34c80e5d449753ee",
-    "url": "https://hpkhanhloc.github.io/viihde-app/static/js/main.9bbe27da.chunk.js"
+    "revision": "9a96ccd100ab1c5d5603",
+    "url": "https://hpkhanhloc.github.io/viihde-app/static/js/main.621edd6d.chunk.js"
   },
   {
     "revision": "81ad05550507022b24f7",
