@@ -30,7 +30,7 @@ const App = () => {
   return (
     <Container>
       <div>
-        <Router>
+        <Router basename='/viihde-app'>
           <div>
             <Menu inverted>
               <Menu.Item link>
