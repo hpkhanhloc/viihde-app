@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/viihde-app/precache-manifest.ca3b9ffb916433c643fa4bf0017d3f63.js"
+  "/viihde-app/precache-manifest.e7fb71fd86d7f4ce412184cc002e9e41.js"
 );
 
 self.addEventListener('message', (event) => {
