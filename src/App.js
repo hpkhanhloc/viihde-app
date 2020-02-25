@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router,
-        Route, Link} from 'react-router-dom'
+        HashRouter, Route, Link} from 'react-router-dom'
 import { Container, Menu } from 'semantic-ui-react'
 import Videos from './components/Videos'
 import Video from './components/Video'
@@ -30,42 +30,50 @@ const App = () => {
   return (
     <Container>
       <div>
-        <Router>
-          <div>
-            <Menu inverted>
-              <Menu.Item link>
-                <Link style={padding} to="/">
-                  Home
-                </Link>
-              </Menu.Item>
-              <Menu.Item link>
-                <Link style={padding} to="/videos">
-                  Videos
-                </Link>
-              </Menu.Item>
-            </Menu>
-          </div>
-          <Route exact path="/" render={() => <Home />} />
-          <Route
-            exact
-            path="/videos"
-            render={() => <Videos videos={videos} />}
-          />
-          <Route
-            exact
-            path="/videos/:id"
-            render={({ match }) => <Video video={videoById(match.params.id)} />}
-          />
-        </Router>
-        <div className='footer'>
+        <HashRouter basename="/">
+          <Router>
+            <div>
+              <Menu inverted>
+                <Menu.Item link>
+                  <Link style={padding} to="/">
+                    Home
+                  </Link>
+                </Menu.Item>
+                <Menu.Item link>
+                  <Link style={padding} to="/videos">
+                    Videos
+                  </Link>
+                </Menu.Item>
+              </Menu>
+            </div>
+            <Route exact path="/" render={() => <Home />} />
+            <Route
+              exact
+              path="/videos"
+              render={() => <Videos videos={videos} />}
+            />
+            <Route
+              exact
+              path="/videos/:id"
+              render={({ match }) => (
+                <Video video={videoById(match.params.id)} />
+              )}
+            />
+          </Router>
+        </HashRouter>
+        <div className="footer">
           <br />
-          <em><p>
-            By Loc Hoang. See{" "}
-            <a href="https://github.com/hpkhanhloc/viihde-app">https://github.com/hpkhanhloc/viihde-app</a>{" "}
-            for source code.
-          </p></em>
+          <em>
+            <p>
+              By Loc Hoang. See{" "}
+              <a href="https://github.com/hpkhanhloc/viihde-app">
+                https://github.com/hpkhanhloc/viihde-app
+              </a>{" "}
+              for source code.
+            </p>
+          </em>
         </div>
-    </div>
+      </div>
     </Container>
   );
 }
