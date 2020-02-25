@@ -30,7 +30,7 @@ const App = () => {
   return (
     <Container>
       <div>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <div>
             <Menu inverted>
               <Menu.Item link>
